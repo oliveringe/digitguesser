@@ -5,7 +5,7 @@
                 <div class="header-left">
                     Oliver Ingebretsen<br />
                     Advanced Programming Topics Period 1<br />
-                    June 10 2024
+                    June 2024
                 </div>
 
                 <div class="header-right">
@@ -13,7 +13,7 @@
                 </div>
             </div>
         </header>
-        <h1>advprog-nn</h1>
+        <h1>DIGITGUESSER</h1>
 
         <section class="option-section train">
             <h2>Train</h2>
@@ -344,13 +344,13 @@
 
         <div class="about" v-if="aboutVisible">
             <div class="about-dialog">
-                <h3>ADVPROG-NN</h3>
+                <h3>DIGITGUESSER</h3>
 
                 <p>
                     This site showcases a simple neural network written entirely in JavaScript and
                     running completely in a web browser. It was created by Oliver Ingebretsen for
                     the Advanced Programming Topics course (Period 1) taught at Woodinville High
-                    School in 2024.
+                    School. Project completed June 9, 2024.
                 </p>
 
                 <p>The following languages, resources, references were used:</p>
