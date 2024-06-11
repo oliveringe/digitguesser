@@ -37,7 +37,7 @@
                     <div class="option">
                         <strong>Neuron Count</strong>
                         <span>{{ neuronCount }}</span>
-                        <input type="range" min="10" max="256" v-model="neuronCount" />
+                        <input type="range" min="10" max="128" v-model="neuronCount" />
                         <p>
                             This is the total number of neurons that are created in the middle layer
                             of the network - the size of the network.
