@@ -1,6 +1,5 @@
 import Neuron from './Neuron.js'
 import { getRandomNumber } from './utils/math.js'
-// import { sigmoid, getRandomNumber } from "../utils/math.js";
 
 // ================================================================================
 // Layer
@@ -19,6 +18,7 @@ export default class Layer {
         }
     }
 
+    // Feed forward takes an array of inputs and feeds them through each neuron in the layer
     feedForward(X) {
         const outputs = []
 
